@@ -1,0 +1,38 @@
+{
+    "name": "donaldinou/drupal-theme-beta-test",
+    "description": "Drupal Theme Beta Test installer",
+    "version": "1.0.0-alpha",
+    "type": "drupal-theme",
+    "keywords": ["Drupal", "theme", "test"],
+    "homepage": "http://www.drupal.org",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adrien Loyant",
+            "email": "loyant@acreat.com",
+            "homepage": "http://www.acreat.com",
+            "role": "Developper"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/7"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "composer/installers": "dev-master"
+    },
+    "conflict": {
+        "drupal/drupal": "8.*"
+    },
+    "support": {
+        "email": "support@drupal.org"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "secure-http": false
+    }
+}

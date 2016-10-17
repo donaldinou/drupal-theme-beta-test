@@ -1,0 +1,14 @@
+{
+  "name": "drupal-theme-beta-test",
+  "version": "1.0.0-alpha",
+  "description": "Just for testing purpose.",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^1.2.0",
+    "matchdep": "^1.0.1"
+  }
+}
